@@ -1,6 +1,6 @@
 # Lucca Leaves, Slack reminder
 
-[![CircleCI](https://circleci.com/gh/bureaux-a-partager/lucca-leaves-slack-reminder/tree/master.svg?style=svg&circle-token=)](https://circleci.com/gh/bureaux-a-partager/lucca-leaves-slack-reminder/tree/master)
+[![CircleCI](https://circleci.com/gh/bureaux-a-partager/lucca-leaves-slack-reminder/tree/master.svg?style=svg&circle-token=639a55cc96c45f36e04335f57531b3e81cd576f7)](https://circleci.com/gh/bureaux-a-partager/lucca-leaves-slack-reminder/tree/master)
 
 This project is used to notify a team in Slack of the leaves in Lucca.
 
