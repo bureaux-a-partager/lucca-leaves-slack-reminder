@@ -14,7 +14,8 @@ type Config struct {
 		Username  string
 	}
 	Lucca struct {
-		Token string ""
+		Token     string
+		SubDomain string
 	}
 }
 
@@ -29,6 +30,7 @@ func Init() Config {
 	c.Slack.Username = utils.GetEnv("SLACK_USERNAME", "Life team")
 
 	c.Lucca.Token = utils.GetEnv("LUCCA_TOKEN", "")
+	c.Lucca.SubDomain = utils.GetEnv("LUCCA_SUBDOMAIN", "bap")
 
 	flag.Parse()
 

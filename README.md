@@ -13,6 +13,7 @@ export SLACK_TOKEN=xxxx-xxxxxxxxxx-xxxxxxxxxxx-xxxxxxxxxxxx-xxxxxxxxxxxxxxxxxxxx
 export LUCCA_TOKEN=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 # Optional
+export LUCCA_SUBDOMAIN=you       # Default: bap 😆
 export SLACK_CHANNEL=random      # Default: lifeteam
 export SLACK_ICON_EMOJI=:rocket: # Default: :sunglasses:
 export SLACK_USERNAME=Bob        # Default: Life team

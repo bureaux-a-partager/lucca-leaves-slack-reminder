@@ -108,9 +108,9 @@ func FormatEmployees(employees []Employee) string {
 	return output
 }
 
-func GetLeaves(token string) LeavesResponse {
+func GetLeaves(token string, subDomain string) LeavesResponse {
 	now := time.Now().Format("2006-01-02")
-	url := "https://bap.ilucca.net/api/v3/leaves?leavePeriod.ownerId=greaterthan,0&date=" + now + "&fields=isAM,leavePeriod[owner.name,endsOn,endsAM]"
+	url := "https://" + subDomain + ".ilucca.net/api/v3/leaves?leavePeriod.ownerId=greaterthan,0&date=" + now + "&fields=isAM,leavePeriod[owner.name,endsOn,endsAM]"
 
 	client := &http.Client{}
 

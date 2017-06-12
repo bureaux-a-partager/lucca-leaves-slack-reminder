@@ -12,7 +12,7 @@ import (
 func main() {
 	c := config.Init()
 
-	l := lucca.GetLeaves(c.Lucca.Token)
+	l := lucca.GetLeaves(c.Lucca.Token, c.Lucca.SubDomain)
 	e := l.ListEmployees()
 	t := lucca.FormatEmployees(e)
 
